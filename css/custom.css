@@ -1,0 +1,19 @@
+/* 修复文章正文可读性：加深文字颜色，确保背景干净白 */
+#post,
+#post #article-container,
+.post-content {
+  color: #1a1a1a !important;
+  background: #ffffff !important;
+}
+
+/* 引用块（blockquote）文字也加深 */
+#post blockquote,
+#post blockquote p {
+  color: #2d2d2d !important;
+}
+
+/* 文章段落间距稍微拉开一点 */
+#post p {
+  line-height: 1.9;
+  margin-bottom: 1em;
+}
