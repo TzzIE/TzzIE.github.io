@@ -1,3 +1,10 @@
+/* 修复文章标题颜色：黑色 */
+#post .post-title,
+#post h1.post-title,
+.post-content h1 {
+  color: #000000 !important;
+}
+
 /* 修复文章正文可读性：加深文字颜色，确保背景干净白 */
 #post,
 #post #article-container,
